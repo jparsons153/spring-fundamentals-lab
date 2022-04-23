@@ -7,9 +7,9 @@ public class StatusService {
 
     public String processStatus(boolean arriving) {
         if (arriving) {
-            return "springfundamentals/hello";
+            return "/hello";
         } else {
-            return "springfundamentals/goodbye";
+            return "/goodbye";
         }
     }
 }
