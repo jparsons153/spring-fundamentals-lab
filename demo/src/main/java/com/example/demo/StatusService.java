@@ -12,4 +12,8 @@ public class StatusService {
             return "/goodbye";
         }
     }
-}
+
+    public String resultStatus() {
+        return "/success";
+        }
+    }
